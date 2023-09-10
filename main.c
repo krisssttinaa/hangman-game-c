@@ -22,7 +22,14 @@ const char* sRandom[] = {
   "cappuccino",
   "macchiato",
   "mocha",
-  "ristretto"
+  "ristretto",
+  "black",
+  "frappe",
+  "irish",
+  "vietnamese",
+  "vienna",
+  "breve",
+  "iced"
 };
 
 void showRules(){ //print rules and info
@@ -169,5 +176,9 @@ int main() {
   }//endOfWhile
   return 0;
 }//endOfMain
-
+/*
+I give the opportunity for user to guess the word/the rest of word by entering the whole/the part of word.
+    1. user will still get points for not correct characters
+    2. it just gives the opportunity to guess the word immediately
+*/
 //done by Kristina Piiarska
